@@ -1,0 +1,52 @@
+.top_box{
+	height:30px;
+	width:100%;
+}
+.serch_box{
+	height:30px;
+	width:70%;
+	position:relative;
+	left:50%;
+	float:left;
+}
+.login_box{
+	height:30px;
+	width:30%;
+	float:left;
+}
+.serch_box .serch_text{
+	display:inline-block;
+	border-radius:2px;
+	border:none;
+}
+.serch_box a img{
+	display:inline-block;
+	height:20px;
+	width:20px;
+}
+.login_nav{
+	height:20px;
+	width:300px;
+}
+.login_nav ul{
+	text-align: center;
+    height:100%;
+    width: 100%;
+    list-style: none;
+}
+.login_nav li{
+    display:inline-block;
+    border-right:1px solid #dadada;
+}
+.login_nav .register{
+	display:inline-block;
+	border-right:1px solid #FFF;
+}
+.login_nav li a{
+	text-decoration: none;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    margin:0 20px;
+}

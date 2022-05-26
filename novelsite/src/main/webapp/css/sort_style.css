@@ -1,0 +1,29 @@
+.sort_box1{
+	width:25%;
+	height:30px;
+	margin-left:12%;
+}
+.sort_box1 ul{
+	list-style: none;
+}
+
+.sort_box1 ul li{
+    display:inline-block;
+}
+
+.sort_box1 ul li .unselected{
+    text-decoration: none;
+    font-size: 18px;
+    color:#000000;
+    text-align: left;
+    line-height: 60px;
+    margin:0 20px;
+}
+.sort_box1 ul li .selected{
+    text-decoration: none;
+    font-size: 18px;
+    color:#ff0000;
+    text-align: left;
+    line-height: 60px;
+    margin:0 20px;
+}

@@ -1,0 +1,23 @@
+.classify_box{
+	width:200px;
+	height:auto;
+	margin-left:15%;
+	border-bottom:2px solid #000000;
+}
+.classify_box h3{
+	text-align:center;
+}
+.classify_box ul li{
+	display:inline-block;
+}
+.classify_box ul li .selected{
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	background:#80ffff;
+}
+.classify_box ul li .unselected{
+	text-decoration:none;
+	color:#000000;
+	background:#ffffff;
+}
